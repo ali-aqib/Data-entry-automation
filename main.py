@@ -6,7 +6,7 @@ from time import sleep
 
 
 URL = "https://appbrewery.github.io/Zillow-Clone/"
-FORM_URL = "https://forms.gle/SE4RhBZ3xqzhFTdo6"
+FORM_URL = "YOUR_GOOGLE_FORM_URL"
 
 response = requests.get(URL)
 response.raise_for_status()
